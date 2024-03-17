@@ -2,7 +2,7 @@ public class IF_Else {
     public static void main(String[] args) {
         boolean ismale=true;
         String name="sonu";
-        System.out.println("after if");
+        System.out.println("before if");
         if(ismale){
             System.out.println("Mr. "+name);
         }
