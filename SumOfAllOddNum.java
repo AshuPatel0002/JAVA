@@ -23,12 +23,10 @@ public class SumOfAllOddNum {
         System.out.println("this odd sum insight the function:");
         
         int sum=0;
-        for (int i =1;i<=N;i++){
-            if(i%2==0){
-                continue;
-            }else{
+        for (int i =1;i<=N;i=i+2){
+            
                 sum+=i;
-            }
+            
         }
         return sum;
     }
