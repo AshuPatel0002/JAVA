@@ -28,8 +28,6 @@ public class Palindrome_array {
         for(int i=0;i<arr1.length;i++){
             if(arr1[i]==arr2[i]){
                 flag=1;
-            }else{
-                flag=2;
             }
         }
         if(flag==1){
